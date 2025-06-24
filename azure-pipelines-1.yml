@@ -49,5 +49,5 @@ steps:
   inputs:
     azureSubscription: 'devopSP'
     appType: 'webApp'
-    appName: 'EduSyncAPI20250624213715Plannn'
+    appName: 'EduSyncAPI20250624213715nn'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
