@@ -47,8 +47,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'DevOpsSP'
+    azureSubscription: 'devopSP'
     appType: 'webApp'
-    appName: 'EduSyncAPI'
+    appName: 'EduSyncAPI20250624213715Plannn'
     package: '$(Build.ArtifactStagingDirectory)/**/*.zip'
-
